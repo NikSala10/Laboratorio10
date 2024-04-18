@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body  {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;  
+  }
+  .Informacion  {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .logo  {
+    width: 55%;
+    text-align: right;
+  }
+  .logo img {
+    justify-content: center;
+    text-align: center; 
+    height: 100px;
+    width: 100px;
+    margin-top: 0px; 
+  }
+  .Barra   {
+    display: flex;
+    width: 100%;
+    margin: 0%;
+     text-align: left;
+  }
+  nav  {
+    width: 100%;
+    height: 1%;
+    background-image: url(https://img.freepik.com/fotos-premium/plantilla-fondo-borroso-suave-trabajos-diseno-grafico-textura-clasica-suave-espacio-copia_7954-10880.jpg?w=360);
+    padding-top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .servicio  {
+    text-align: left;
+    width: 50%;
+    }
+    .iconos1 svg  {
+      width: 18px;
+      height: 30px;
+    }
+    .icons  {
+      width: 50%;
+      text-align: right; 
+    }
+    .Barra-busqueda input   {
+      border: none;
+      border-radius: 8px;
+      height: 25px;
+      margin-bottom: 20px;
+      background-color: rgba(255, 255, 255, 0.49);
+      padding-right: 5px;
+      color: black;
+    }
+    .Barra-busqueda select  {
+      border: none;
+      border-radius: 8px;
+      border-bottom: rgba(160, 160, 160, 0.716) 3px solid;
+      background-color: rgba(255, 255, 255, 0.49);
+      width:78px;
+      height: 25px;
+      color: rgba(0, 0, 0, 0.393);
+      cursor: pointer;
+    }
+    #search  {
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      margin-top: 2px;
+      color: rgba(0, 0, 0, 0.407);
+      padding-top: 2px;
+      margin-left: -25px;
+    }
+    .iconos1{
+      display: flex; 
+    }
+    #icono-servicio  {
+      margin-left: 20px;
+    }
+    #icono-carro  {
+      margin-right: 20px;
+    }
+  .Barra-busqueda  {
+    display: flex;
+    position: relative;
+    width: 45%;
+    height: 100%;
+  }
+  .Barra-busqueda div {
+  width: 100%;
+  text-align: right;
+  margin-right: 20px; 
+  }
+
+nav svg  {
+  width: 20px;
+  height: 20px;
+}
+
+#img-1  {
+  width: 100%;
+  height: 100%;
+}
+.publicidad img {
+  width: 45px;
+  height: 45px;
+
+}
+
+#parrafo-principal b  {
+  color: #FAD09E;
+}
+.banner-descripcion p {
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 30px;
+
+}
+
+#p1{ 
+display:flex;
+align-items: center;
+margin-top: 50px;
+flex-wrap: wrap;
+
+}
+
+.Subproduct-1{
+  width:50%;
+  height: 500px;
+ margin-bottom: 50px;
+
+}
+
+#id-img{
+  width:80%;
+  height: 80%;
+  border-top: #FAD09E 3px solid;
+  border-bottom: #FAD09E 3px solid ;
+}
+
+.Subproduct-1 p,div  {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.Compra {
+  display: flex;
+}
+#detalle  {
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 35px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScGDsDLAOZaVTS-VvKvZp_g5vDQZVqMcNrQo4OF17D-VNCuoUrlYJ_9dHIOUrGjOsXT7M&usqp=CAU);
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  cursor: pointer;
+}
+#precio  {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin-top: 3px;
+  
+}
+.Nombre-producto  {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 15px;
+  font-size: 17px;
+}
+.carrito-compra  {
+  margin-top: 9px;
+  margin-left: 8px;
+  width: 25px;
+  height: 25px;
+  color: #FCAE8A;
+  cursor: pointer;
+}
